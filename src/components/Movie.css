@@ -1,0 +1,129 @@
+.movie {
+  width: calc(50% - 50px);
+  background-color: white;
+  height: 350px;
+  margin-bottom: 50px;
+  display: flex;
+  position: relative;
+  padding: 30px;
+  box-shadow: 5px 5px 15px rgb(109, 109, 109);
+}
+
+.movie:nth-child(2n + 1) {
+  margin-right: 50px;
+}
+
+.movie__img {
+  position: relative;
+  width: 200px;
+}
+
+.movie__img img {
+  position: absolute;
+  width: 80%;
+  top: -60px;
+  left: 0px;
+  cursor: pointer;
+}
+
+.movie__data {
+  width: 70%;
+}
+
+.menu__nav {
+  width: 250px;
+  background-color: white;
+  height: 5000px;
+  box-shadow: 0px 0px 10px rgb(109, 109, 109);
+  z-index: 1;
+  text-align: center;
+}
+
+.menu__con {
+  padding: 80px 25px;
+}
+
+.nav__title {
+  display: inline;
+}
+
+.moreBright {
+  color: rgb(73, 73, 73);
+}
+
+.menu__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: rgb(42, 65, 165);
+  margin: 20px auto;
+}
+
+.movie__year,
+.movie_summary,
+.movie__comment {
+  color: rgb(122, 122, 122);
+}
+
+.movie_summary {
+  height: 130px;
+  padding: 10px 0px;
+  overflow: hidden;
+}
+
+.movie__review {
+  display: flex;
+  height: 30px;
+  line-height: 35px;
+  position: absolute;
+  left: 30px;
+  top: 230px;
+  padding: 10px 0px;
+}
+
+.circle {
+  display: flex;
+  width: 100px;
+}
+
+.movie__comment {
+  width: calc(100% - 100px);
+}
+
+.colorGray {
+  color: rgb(170, 170, 170);
+  font-weight: 700;
+}
+
+.circle div {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid rgb(170, 170, 170);
+  margin-right: -3px;
+}
+
+.menu__content {
+  margin: 70px 0px;
+  text-align: left;
+  font-size: 1.1rem;
+  color: rgb(170, 170, 170);
+  font-weight: 700;
+}
+
+.menu__interval {
+  margin: 20px 0px;
+  display: flex;
+}
+
+.menu__interval.main {
+  font-size: 0.9rem;
+}
+
+.menu__interval div:last-child {
+  cursor: pointer;
+}
+
+.menu__icon {
+  margin-right: 10px;
+}

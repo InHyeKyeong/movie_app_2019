@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 1450px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: cadetblue;
+}
+
+.container {
+  overflow: auto;
+  display: flex;
+  padding: 20px;
+}
+
+.movies {
+  width: calc(100% - 250px);
+  padding: 150px 50px;
+  background-color: rgb(240, 251, 255);
+  display: flex;
+  flex-wrap: wrap;
+}
