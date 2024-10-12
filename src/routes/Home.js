@@ -1,8 +1,8 @@
-import "./App.css";
+import "./Home.css";
 import React from "react";
 import axios from "axios";
 import Movie from "../components/Movie";
-import Menu from "./Menu";
+import Menu from "../components/Menu";
 
 class Home extends React.Component {
   state = {
